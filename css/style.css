@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.d-block {
+    display: block;
+}
+
 .txt-grey {
     color: #4E4E4E;
 }
@@ -30,4 +34,12 @@
 
 .data {
     font-size: 10px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.paragraph>p {
+    margin: 20px 0;
 }
