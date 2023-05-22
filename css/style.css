@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+main,
+footer {
+    margin-left: 20px;
+}
+
 .d-block {
     display: block;
 }
@@ -29,6 +34,7 @@
 .logo {
     height: 40px;
     margin-top: 35px;
+    margin-left: 20px;
 
 }
 
@@ -42,4 +48,27 @@ figcaption {
 
 .paragraph>p {
     margin: 20px 0;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-right: 20px;
+
+}
+
+th,
+td {
+    text-align: left;
+    width: 500px;
+}
+
+th {
+    background-color: #1FA9E5;
+    color: white;
+}
+
+.first-row,
+.third-row {
+    background-color: #91d9f8;
 }
