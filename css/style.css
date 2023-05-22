@@ -11,6 +11,10 @@ footer {
     display: block;
 }
 
+.txt-white {
+    color: white;
+}
+
 .txt-grey {
     color: #4E4E4E;
 }
@@ -54,6 +58,7 @@ table {
     margin-top: 20px;
     border-collapse: collapse;
     margin-right: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -71,4 +76,29 @@ th {
 .first-row,
 .third-row {
     background-color: #91d9f8;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first-footer-image {
+    background-image: url("../img/monitor.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.second-footer-image {
+    background-image: url("../img/graph.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+footer span {
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
 }
